@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Значение переменной b с типом byte равно " + b);
         short c = 1;
         System.out.println("Значение переменной c с типом short равно " + c);
-        long d = 1;
+        long d = 1L;
         System.out.println("Значение переменной d с типом long равно " + d);
         float e = 1f;
         System.out.println("Значение переменной e с типом float равно " + e);
@@ -30,19 +30,17 @@ public class Main {
         int paperKids = paperAll / allKids;
         System.out.println("На каждого ученика рассчитано " + paperKids + " листов бумаги");
 
-        byte minute = 2;
-        byte bottles = 8;
-        int machine = bottles * 2;
-        byte minutes = 20;
+        byte bottles = 16;
+        byte minutes = 10;
         int machine20 = bottles * minutes;
-        System.out.println("За " + minutes + " минут машина произвела " + machine20 + " штук бутылок");
-        short day = 1440;
+        System.out.println("За 20 минут машина произвела " + machine20 + " штук бутылок");
+        short day = 720;
         int machineDay = bottles * day;
         System.out.println("За сутки машина произвела " + machineDay + " штук бутылок");
-        short day3 = 4320;
+        short day3 = 2160;
         int machineDay3 = bottles * day3;
         System.out.println("За 3 дня машина произвела " + machineDay3 + " штук бутылок");
-        int month = 43800;
+        int month = 21900;
         int machineMonth = bottles * month;
         System.out.println("За месяц машина произвела " + machineMonth + " штук бутылок");
 
